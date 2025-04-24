@@ -16,7 +16,7 @@ Minecraft服务器参与建筑玩家统计脚本
 - 在[Releases](https://github.com/GoldenEggsUNION/mcsAna/releases)下载mcsAna.exe主程序
 - 直接拖入到刚刚存放log的目录中双击，就是这么简单
 
-![[执行效果](https://img.alicdn.com/imgextra/i3/2200604020099/O1CN01kzEqm01CbOGGP4PP4_!!2200604020099.gif)
+![执行效果](https://img.alicdn.com/imgextra/i3/2200604020099/O1CN01kzEqm01CbOGGP4PP4_!!2200604020099.gif)
 - 在新生成的view文件夹中，你可以找到每天的日志分析数据，供你参考分析
 
 ![数据效果](https://img.alicdn.com/imgextra/i3/2200604020099/O1CN01I3oQEW1CbOGGv67yM_!!2200604020099.png)
