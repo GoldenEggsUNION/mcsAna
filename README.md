@@ -11,16 +11,15 @@ Minecraft服务器参与建筑玩家统计脚本
     - 如果latest.log是2025年3月29日的日志，且刚刚已经解压出来了一个2025-03-29-1.log，那么把他改成2025-03-29-2.log即可
 - 整理完日志的文件夹应该看起来长这样
 
-![整理完日志的文件夹](https://eggs.gold/wp-content/uploads/2025/04/看起来不错.png)
+![整理完日志的文件夹](https://img.alicdn.com/imgextra/i4/2200604020099/O1CN01O28HzL1CbOGGHNHO5_!!2200604020099.png)
 
 - 在[Releases](https://github.com/GoldenEggsUNION/mcsAna/releases)下载mcsAna.exe主程序
 - 直接拖入到刚刚存放log的目录中双击，就是这么简单
 
-![执行效果](https://eggs.gold/wp-content/uploads/2025/04/执行.gif)
-
+![[执行效果](https://img.alicdn.com/imgextra/i3/2200604020099/O1CN01kzEqm01CbOGGP4PP4_!!2200604020099.gif)
 - 在新生成的view文件夹中，你可以找到每天的日志分析数据，供你参考分析
 
-![数据效果](https://eggs.gold/wp-content/uploads/2025/04/QQ20250425-002301.png)
+![数据效果](https://img.alicdn.com/imgextra/i3/2200604020099/O1CN01I3oQEW1CbOGGv67yM_!!2200604020099.png)
 
 **只统计君子，不统计小人**
 
