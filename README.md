@@ -1,7 +1,10 @@
 # mcsAna
 Minecraft服务器参与建筑玩家统计脚本
+
 基于服务器日志按日分析
+
 当前支持统计玩家在线时长、使用了命令的次数（如玩家使用[WorldEdit](https://modrinth.com/plugin/worldedit)就会在后台留下命令使用的日志）
+
 一切统计基于玩家正常的建筑行为，挂机、刷指令等行为需自行筛选剔除
 
 # Windows使用
@@ -25,4 +28,5 @@ Minecraft服务器参与建筑玩家统计脚本
 
 # 贡献
 笔者只是造了一个轮子，更多内容欢迎贡献
+
 （比如 接入[CoreProtect](https://modrinth.com/plugin/coreprotect)）
