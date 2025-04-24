@@ -6,17 +6,6 @@ from collections import defaultdict
 import sys
 
 def parse_log_time(date_str, time_str):
-    """
-    Combines date and time strings into a datetime object.
-
-    Args:
-        date_str (str): Date string in YYYY-MM-DD format.
-        time_str (str): Time string in HH:MM:SS format.
-
-    Returns:
-        datetime.datetime: A datetime object representing the combined date and time.
-                           Returns None if parsing fails.
-    """
     datetime_str = f"{date_str} {time_str}"
     try:
         return datetime.datetime.strptime(datetime_str, "%Y-%m-%d %H:%M:%S")
@@ -123,7 +112,7 @@ def analyze_logs(date_dir="date", output_dir="view"):
         return
 
     line_pattern = re.compile(r'^\[(\d{2}:\d{2}:\d{2})\] \[[^/]+/INFO\]: (.*)$')
-
+    # 修改为你服务器日志的正则表达式，如果你不会写，可以发给AI参考
     login_pattern = re.compile(r'^([a-zA-Z0-9_]+)\[/\d{1,3}\.\d{1,3}\.\d{1,3}\.\d{1,3}:\d+\] logged in')
     logout_pattern = re.compile(r'^([a-zA-Z0-9_]+) left the game$')
     command_pattern = re.compile(r'^([a-zA-Z0-9_]+) issued server command:')
